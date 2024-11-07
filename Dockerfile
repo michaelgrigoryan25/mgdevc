@@ -34,12 +34,7 @@ RUN pip install --no-cache-dir --upgrade \
     pip \
     setuptools \
     wheel \
-    pycryptodome \
-    # Added useful Python packages
-    requests \
-    pytest \
-    black \
-    flake8
+    pycryptodome
 
 # Install Rust
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
